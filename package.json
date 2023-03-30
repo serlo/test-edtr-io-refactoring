@@ -3,14 +3,6 @@
   "version": "1.0.0",
   "description": "Documentation",
   "type": "module",
-  "exports": {
-    "./plugin-toolbar": {
-      "import": {
-        "types": "./dist/private/plugin-toolbar/index.d.ts",
-        "default": "./dist/private/plugin-toolbar/index.js"
-      }
-    }
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
