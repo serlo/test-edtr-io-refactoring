@@ -5,8 +5,10 @@
   "type": "module",
   "exports": {
     "./plugin-toolbar": {
-      "default": "./dist/private/plugin-toolbar/index.js",
-      "types": "./dist/private/plugin-toolbar.index.js"
+      "import": {
+        "types": "./dist/private/plugin-toolbar/index.d.ts",
+        "default": "./dist/private/plugin-toolbar/index.js"
+      }
     }
   },
   "scripts": {
