@@ -4,9 +4,11 @@
   "description": "Documentation",
   "type": "module",
   "exports": {
-    ".": "./dist/index.js"
+    "./plugin-toolbar": {
+      "default": "./dist/private/plugin-toolbar/index.js",
+      "types": "./dist/private/plugin-toolbar.index.js"
+    }
   },
-  "types": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
