@@ -2,7 +2,8 @@
   "name": "test-edtr-io-refactoring",
   "version": "1.0.0",
   "description": "Documentation",
-  "main": "index.js",
+  "type": "module",
+  "exports": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
