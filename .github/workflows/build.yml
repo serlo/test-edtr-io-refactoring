@@ -30,3 +30,4 @@ jobs:
         uses: EndBug/add-and-commit@v9
         with:
           new_branch: dist
+          push: '--force'
