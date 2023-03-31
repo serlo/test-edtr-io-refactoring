@@ -11,3 +11,6 @@
 /// <reference path="./default-plugin-toolbar/index.d.ts" />
 /// <reference path="./default-document-editor/index.d.ts" />
 /// <reference path="./core/index.d.ts" />
+/// <reference path="./renderer/index.d.ts" />
+/// <reference path="./renderer-ui/index.d.ts" />
+/// <reference path="./renderer-ssr/index.d.ts" />
