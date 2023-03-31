@@ -59,5 +59,3 @@ packages/*/*/internal/
 
 # MacOS
 **/.DS_Store
-
-package-lock.json
