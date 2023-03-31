@@ -3,8 +3,10 @@ import * as MQ from 'react-mathquill'
 
 import { MathEditorProps } from './editor-props'
 
-// @ts-expect-error https://github.com/serlo/serlo-editor-issues-and-documentation/issues/68
-MQ.default?.addStyles ? MQ.default.addStyles() : MQ.addStyles()
+if (typeof window !== 'undefined') {
+  // @ts-expect-error https://github.com/serlo/serlo-editor-issues-and-documentation/issues/68
+  MQ.default?.addStyles ? MQ.default.addStyles() : MQ.addStyles()
+}
 
 function isTouchDevice(): boolean {
   return 'ontouchstart' in window || navigator.maxTouchPoints > 0
