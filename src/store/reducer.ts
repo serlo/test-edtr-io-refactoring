@@ -13,7 +13,12 @@ import { createActionWithoutPayload } from './helpers'
 import { historyReducer } from './history/reducer'
 import { pluginsReducer } from './plugins/reducer'
 import { rootReducer } from './root/reducer'
-import { State, ScopedState, InternalScopedState, InternalState } from './types'
+import {
+  State,
+  ScopedState,
+  InternalScopedState,
+  InternalState,
+} from './storetypes'
 
 /**
  * The Edtr.io root reducer

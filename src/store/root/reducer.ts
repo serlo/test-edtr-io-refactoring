@@ -1,6 +1,6 @@
 import { serializeDocument } from '../documents/reducer'
 import { createSelector, createSubReducer, SubReducer } from '../helpers'
-import { SelectorReturnType, Selector } from '../types'
+import { SelectorReturnType, Selector } from '../storetypes'
 import { pureInitRoot, PureInitRootAction } from './actions'
 
 /** @internal */

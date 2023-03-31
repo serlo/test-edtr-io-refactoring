@@ -6,7 +6,7 @@ import {
   ActionCreatorAction,
   ActionCreatorWithoutPayload,
   ActionCreatorWithPayload,
-} from '../types'
+} from '../storetypes'
 
 /** @public */
 export const persist = createActionWithoutPayload<'Persist'>('Persist')

@@ -9,7 +9,7 @@ import {
   SubReducer,
 } from '../helpers'
 import { getPlugin } from '../plugins/reducer'
-import { DocumentState, ScopedState, Selector } from '../types'
+import { DocumentState, ScopedState, Selector } from '../storetypes'
 import {
   pureInsert,
   PureInsertAction,

@@ -13,7 +13,7 @@ import {
 
 import { applyActions, ReversibleAction } from '../actions'
 import { scopeSelector } from '../helpers'
-import { InternalSelectorReturnType, SelectorReturnType } from '../types'
+import { InternalSelectorReturnType, SelectorReturnType } from '../storetypes'
 import {
   undo,
   redo,

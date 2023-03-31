@@ -9,7 +9,7 @@ import {
   ActionCreatorAction,
   ActionCreatorWithPayload,
   ScopedState,
-} from './types'
+} from './storetypes'
 
 /** @public */
 export const setPartialState = createActionCreator<

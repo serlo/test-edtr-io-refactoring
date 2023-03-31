@@ -13,7 +13,7 @@ import { Action, InternalAction } from './actions'
 import { reducer } from './reducer'
 import { serializeRootDocument } from './root/reducer'
 import { saga } from './saga'
-import { InternalState, SelectorReturnType, State } from './types'
+import { InternalState, SelectorReturnType, State } from './storetypes'
 
 const createSagaMiddleware = _createSagaMiddleware
 

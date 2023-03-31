@@ -16,7 +16,7 @@ import {
 } from '../helpers'
 import { getPlugin } from '../plugins/reducer'
 import { getRoot } from '../root/reducer'
-import { ScopedState, Selector } from '../types'
+import { ScopedState, Selector } from '../storetypes'
 import {
   blur,
   BlurAction,

@@ -3,7 +3,7 @@ import {
   ActionCreatorAction,
   ActionCreatorWithPayload,
   DocumentState,
-} from '../types'
+} from '../storetypes'
 
 /** @beta */
 export const copy: ActionCreatorWithPayload<'Copy', string | null> =

@@ -10,7 +10,7 @@ import {
   InternalScopedState,
   InternalSelector,
   InternalState,
-} from './types'
+} from './storetypes'
 
 export function createActionCreator<T, P>(
   type: T

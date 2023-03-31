@@ -2,7 +2,7 @@ import { EditorPlugin } from '@edtr-io/internal__plugin'
 import { StateType } from '@edtr-io/internal__plugin-state'
 
 import { createSelector, createSubReducer, SubReducer } from '../helpers'
-import { Selector } from '../types'
+import { Selector } from '../storetypes'
 
 /** @internal */
 export const pluginsReducer: SubReducer<Record<string, EditorPlugin>> =

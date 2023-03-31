@@ -5,7 +5,7 @@ import {
   ActionCreatorAction,
   ActionCreatorWithoutPayload,
   ActionCreatorWithPayload,
-} from '../types'
+} from '../storetypes'
 
 /** @public */
 export const initRoot: ActionCreatorWithPayload<

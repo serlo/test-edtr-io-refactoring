@@ -31,4 +31,4 @@ export {
   InternalState,
   InternalStore,
   InternalScopedState,
-} from './types'
+} from './storetypes'

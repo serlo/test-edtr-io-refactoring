@@ -2,7 +2,7 @@ import { put, select, takeEvery } from 'redux-saga/effects'
 
 import { serializeDocument } from '../documents/reducer'
 import { scopeSelector } from '../helpers'
-import { SelectorReturnType } from '../types'
+import { SelectorReturnType } from '../storetypes'
 import { copy, CopyAction, pureCopy } from './actions'
 
 export function* clipboardSaga() {

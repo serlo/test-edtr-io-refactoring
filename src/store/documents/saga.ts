@@ -11,7 +11,7 @@ import { ReversibleAction } from '../actions'
 import { scopeSelector } from '../helpers'
 import { commit, temporaryCommit } from '../history/actions'
 import { getPlugin } from '../plugins/reducer'
-import { SelectorReturnType } from '../types'
+import { SelectorReturnType } from '../storetypes'
 import {
   change,
   ChangeAction,

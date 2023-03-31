@@ -1,5 +1,5 @@
 import { createActionCreator } from '../helpers'
-import { ActionCreatorAction, ActionCreatorWithPayload } from '../types'
+import { ActionCreatorAction, ActionCreatorWithPayload } from '../storetypes'
 
 /** @public */
 export const insertChildBefore = createActionCreator<

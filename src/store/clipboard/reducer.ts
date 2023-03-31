@@ -1,7 +1,7 @@
 import * as R from 'ramda'
 
 import { createSelector, createSubReducer, SubReducer } from '../helpers'
-import { DocumentState, Selector } from '../types'
+import { DocumentState, Selector } from '../storetypes'
 import { pureCopy, PureCopyAction } from './actions'
 
 /** @internal */

@@ -8,7 +8,7 @@ import { change, ChangeAction, getDocument } from '../documents'
 import { getFocusTree } from '../focus'
 import { scopeSelector } from '../helpers'
 import { getPlugin } from '../plugins'
-import { SelectorReturnType } from '../types'
+import { SelectorReturnType } from '../storetypes'
 import {
   insertChildAfter,
   InsertChildAfterAction,

@@ -8,7 +8,7 @@ import {
   createSubReducer,
   SubReducer,
 } from '../helpers'
-import { HistoryState, InternalSelector, Selector } from '../types'
+import { HistoryState, InternalSelector, Selector } from '../storetypes'
 import {
   persist,
   PersistAction,
