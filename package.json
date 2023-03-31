@@ -1,9 +1,9 @@
 {
   "name": "test-edtr-io-refactoring",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Documentation",
   "type": "module",
-  "types":"./types.d.ts",
+  "types": "./types.d.ts",
   "scripts": {
     "build": "tsc"
   },
