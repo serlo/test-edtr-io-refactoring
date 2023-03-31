@@ -1,0 +1,12 @@
+# Third-party
+
+# Transpiled
+.next
+
+# Lock files
+*.lock
+
+# HTML files
+*.html
+
+
