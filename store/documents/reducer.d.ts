@@ -1,4 +1,4 @@
-import { EditorPlugin } from '@/internal__plugin';
+import { EditorPlugin } from '@edtr-io/internal__plugin';
 import { SubReducer } from '../helpers';
 import { DocumentState, Selector } from '../types';
 /** @internal */

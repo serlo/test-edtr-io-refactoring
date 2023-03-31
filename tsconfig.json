@@ -12,7 +12,7 @@
     "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@edtr-io/*": ["./src/*"]
     }
   },
   "include": ["src"],

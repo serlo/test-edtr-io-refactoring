@@ -22,15 +22,15 @@
     "@fortawesome/fontawesome-svg-core": "^6.0.0",
     "@fortawesome/free-solid-svg-icons": "^6.0.0",
     "@fortawesome/react-fontawesome": "^0.1.0",
-    "@types/ramda": "^0.28.0",
-    "@types/react": "^18.0.0",
-    "@types/react-dom": "^18.0.0",
-    "@types/shortid": "^0.0.29",
-    "@types/styled-components": "^5.0.0",
     "ramda": "^0.28.0",
     "react": "^18.0.0",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "react-hotkeys": "^2.0.0",
     "react-dom": "^18.0.0",
+    "react-modal": "^3.0.0",
     "redux": "^4.0.0",
+    "react-redux": "^7.2.6",
     "redux-saga": "^1.0.0",
     "reselect": "^4.0.0",
     "shortid": "^2.0.0",
@@ -39,6 +39,12 @@
     "tiny-warning": "^1.0.0"
   },
   "devDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.0.0",
+    "@types/react-modal": "^3.13.1",
+    "@types/ramda": "^0.28.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@types/shortid": "^0.0.29",
+    "@types/styled-components": "^5.0.0"
   }
 }

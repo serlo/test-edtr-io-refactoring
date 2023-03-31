@@ -1,4 +1,4 @@
-import { EditorPlugin } from '@/internal__plugin'
+import { EditorPlugin } from '@edtr-io/internal__plugin'
 import * as R from 'ramda'
 import { channel, Channel } from 'redux-saga'
 import { all, call, put, select, take, takeEvery } from 'redux-saga/effects'

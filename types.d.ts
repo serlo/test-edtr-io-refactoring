@@ -5,3 +5,4 @@
 /// <reference path="./ui/index.d.ts" />
 /// <reference path="./internal__plugin/index.d.ts" />
 /// <reference path="./store/index.d.ts" />
+/// <reference path="./plugin/index.d.ts" />

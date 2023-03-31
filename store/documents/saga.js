@@ -1,4 +1,4 @@
-import { invariant } from '@/internal__dev-expression';
+import { invariant } from '@edtr-io/internal__dev-expression';
 import { channel } from 'redux-saga';
 import { all, call, put, select, take, takeEvery } from 'redux-saga/effects';
 import generate from 'shortid';
