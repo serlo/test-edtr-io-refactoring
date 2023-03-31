@@ -47,7 +47,7 @@
     "react-dom": "^18.0.0",
     "react-hotkeys": "^2.0.0",
     "react-markdown": "^6.0.3",
-    "react-mathquill": "^1.0.2",
+    "react-mathquill": "^1.0.3",
     "react-modal": "^3.0.0",
     "react-redux": "^7.2.6",
     "react-resizable": "^3.0.0",
