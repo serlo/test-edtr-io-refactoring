@@ -1,0 +1,11 @@
+import { Editor as SlateEditor } from 'slate';
+import type { Heading } from '../types';
+export declare function isBoldActive(editor: SlateEditor): boolean;
+export declare function toggleBoldMark(editor: SlateEditor): void;
+export declare function isItalicActive(editor: SlateEditor): boolean;
+export declare function toggleItalicMark(editor: SlateEditor): void;
+export declare function isCodeActive(editor: SlateEditor): boolean;
+export declare function toggleCode(editor: SlateEditor): void;
+export declare function isAnyHeadingActive(editor: SlateEditor): boolean;
+export declare const isHeadingActive: (heading: Heading['level']) => (editor: SlateEditor) => boolean;
+export declare const toggleHeading: (heading: Heading['level']) => (editor: SlateEditor) => void;
