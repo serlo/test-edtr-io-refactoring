@@ -4,21 +4,11 @@ import {
   OverlayInput,
   OverlayTextarea,
   useScopedStore,
-} from '@edtr-io/core'
-import {
-  EditorButton,
-  EditorInput,
-  EditorInlineSettings,
-} from '@edtr-io/editor-ui'
-import { isTempFile, usePendingFileUploader } from '@edtr-io/plugin'
-import { isEmpty, hasFocusedChild } from '@edtr-io/store'
-import {
-  EditorThemeProps,
-  Icon,
-  faImages,
-  faRedoAlt,
-  styled,
-} from '@edtr-io/ui'
+} from '../core'
+import { EditorButton, EditorInput, EditorInlineSettings } from '../editor-ui'
+import { isTempFile, usePendingFileUploader } from '../plugin'
+import { isEmpty, hasFocusedChild } from '../store'
+import { EditorThemeProps, Icon, faImages, faRedoAlt, styled } from '../ui'
 import * as React from 'react'
 
 import { ImageProps } from '.'

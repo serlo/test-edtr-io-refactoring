@@ -1,4 +1,4 @@
-import * as InternalDocumentEditor from '@edtr-io/internal__document-editor'
+import * as InternalDocumentEditor from '../internal__document-editor'
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /**

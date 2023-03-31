@@ -2,8 +2,8 @@ import {
   StateType,
   StateTypeReturnType,
   StateTypeSerializedType,
-} from '@edtr-io/internal__plugin-state'
-import { Theme } from '@edtr-io/ui'
+} from '../internal__plugin-state'
+import { Theme } from '../ui'
 import * as React from 'react'
 
 /**

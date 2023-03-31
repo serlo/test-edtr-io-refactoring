@@ -1,5 +1,5 @@
-import { PluginProps } from '@edtr-io/internal__plugin-state'
-import { undo } from '@edtr-io/store'
+import { PluginProps } from '../../internal__plugin-state'
+import { undo } from '../../store'
 import * as React from 'react'
 
 import { ScopeContext, ErrorContext, useScopedDispatch } from '../store'

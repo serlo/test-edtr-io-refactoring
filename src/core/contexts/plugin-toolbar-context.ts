@@ -1,4 +1,4 @@
-import * as InternalPluginToolbar from '@edtr-io/internal__plugin-toolbar'
+import * as InternalPluginToolbar from '../../internal__plugin-toolbar'
 import * as React from 'react'
 
 /** @public */

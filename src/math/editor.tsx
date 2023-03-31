@@ -1,5 +1,5 @@
-import { EditorTextarea, HoverOverlay, styled } from '@edtr-io/editor-ui'
-import { faQuestionCircle, Icon, merge, useEditorTheme } from '@edtr-io/ui'
+import { EditorTextarea, HoverOverlay, styled } from '../editor-ui'
+import { faQuestionCircle, Icon, merge, useEditorTheme } from '../ui'
 import * as React from 'react'
 import Modal from 'react-modal'
 

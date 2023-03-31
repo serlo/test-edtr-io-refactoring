@@ -1,4 +1,4 @@
-import { Icon, faTable, styled } from '@edtr-io/ui'
+import { Icon, faTable, styled } from '../ui'
 import * as React from 'react'
 
 import { TableProps } from '.'

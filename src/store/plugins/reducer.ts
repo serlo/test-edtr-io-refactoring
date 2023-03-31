@@ -1,5 +1,5 @@
-import { EditorPlugin } from '@edtr-io/internal__plugin'
-import { StateType } from '@edtr-io/internal__plugin-state'
+import { EditorPlugin } from '../../internal__plugin'
+import { StateType } from '../../internal__plugin-state'
 
 import { createSelector, createSubReducer, SubReducer } from '../helpers'
 import { Selector } from '../storetypes'

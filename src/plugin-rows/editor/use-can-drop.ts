@@ -1,11 +1,11 @@
-import { useScopedStore } from '@edtr-io/core'
+import { useScopedStore } from '../../core'
 import {
   findParent,
   getDocument,
   getFocusPath,
   getFocusTree,
   Node,
-} from '@edtr-io/store'
+} from '../../store'
 import * as R from 'ramda'
 
 export function useCanDrop(

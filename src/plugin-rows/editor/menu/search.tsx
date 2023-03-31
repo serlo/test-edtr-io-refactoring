@@ -1,4 +1,4 @@
-import { edtrClose, EdtrIcon, edtrSearch, styled } from '@edtr-io/ui'
+import { edtrClose, EdtrIcon, edtrSearch, styled } from '../../../ui'
 import * as React from 'react'
 
 import { RowsPluginConfig } from '../..'

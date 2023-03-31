@@ -1,4 +1,4 @@
-import { EditorInput, EditorInlineSettings } from '@edtr-io/editor-ui'
+import { EditorInput, EditorInlineSettings } from '../editor-ui'
 import * as React from 'react'
 
 import { GeogebraProps } from '.'

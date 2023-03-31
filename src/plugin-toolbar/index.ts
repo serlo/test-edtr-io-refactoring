@@ -7,7 +7,7 @@
  * for the default plugin toolbar used by Edtr.io
  * @packageDocumentation
  */
-import * as InternalPluginToolbar from '@edtr-io/internal__plugin-toolbar'
+import * as InternalPluginToolbar from '../internal__plugin-toolbar'
 
 /**
  * Type alias for {@link @edtr-io/internal__plugin-toolbar#PluginToolbarButtonProps | PluginToolbarButtonProps}

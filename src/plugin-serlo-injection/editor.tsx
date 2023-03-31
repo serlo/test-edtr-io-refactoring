@@ -1,11 +1,11 @@
-import { OverlayInput } from '@edtr-io/core'
+import { OverlayInput } from '../core'
 import {
   EditorInlineSettings,
   EditorInput,
   PreviewOverlay,
   styled,
-} from '@edtr-io/editor-ui'
-import { Icon, faNewspaper } from '@edtr-io/ui'
+} from '../editor-ui'
+import { Icon, faNewspaper } from '../ui'
 import * as React from 'react'
 
 import { SerloInjectionProps } from '.'

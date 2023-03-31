@@ -1,4 +1,4 @@
-import { Icon, styled, faFilm } from '@edtr-io/ui'
+import { Icon, styled, faFilm } from '../ui'
 import * as React from 'react'
 
 import { VideoProps } from '.'

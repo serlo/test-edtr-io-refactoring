@@ -1,4 +1,4 @@
-import { StateTypeValueType } from '@edtr-io/plugin'
+import { StateTypeValueType } from '../../plugin'
 
 import type { TextEditorState } from '../types'
 

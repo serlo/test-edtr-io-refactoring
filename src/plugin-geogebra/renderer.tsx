@@ -1,4 +1,4 @@
-import { styled } from '@edtr-io/ui'
+import { styled } from '../ui'
 import fetch from 'isomorphic-unfetch'
 import lodash from 'lodash'
 import * as React from 'react'

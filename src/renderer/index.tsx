@@ -1,8 +1,8 @@
-import { Provider, ScopeContext, SubDocument } from '@edtr-io/core'
-import { invariant } from '@edtr-io/internal__dev-expression'
-import { EditorPlugin, StoreDeserializeHelpers } from '@edtr-io/plugin'
-import { Action, ScopedState, State } from '@edtr-io/store'
-import { CustomTheme, RootThemeProvider } from '@edtr-io/ui'
+import { Provider, ScopeContext, SubDocument } from '../core'
+import { invariant } from '../internal__dev-expression'
+import { EditorPlugin, StoreDeserializeHelpers } from '../plugin'
+import { Action, ScopedState, State } from '../store'
+import { CustomTheme, RootThemeProvider } from '../ui'
 import * as React from 'react'
 import { createStore } from 'redux'
 

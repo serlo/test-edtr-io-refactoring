@@ -1,5 +1,5 @@
-import { EditorPlugin } from '@edtr-io/internal__plugin'
-import { StoreSerializeHelpers } from '@edtr-io/internal__plugin-state'
+import { EditorPlugin } from '../../internal__plugin'
+import { StoreSerializeHelpers } from '../../internal__plugin-state'
 import * as R from 'ramda'
 
 import {

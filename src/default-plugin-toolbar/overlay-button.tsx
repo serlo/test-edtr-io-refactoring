@@ -1,5 +1,5 @@
-import { OverlayButtonProps } from '@edtr-io/plugin-toolbar'
-import { styled } from '@edtr-io/ui'
+import { OverlayButtonProps } from '../plugin-toolbar'
+import { styled } from '../ui'
 import * as React from 'react'
 
 import { DefaultPluginToolbarConfig } from './config'

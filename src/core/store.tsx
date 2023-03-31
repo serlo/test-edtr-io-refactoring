@@ -1,4 +1,4 @@
-import { Action, getScope, ScopedState, State } from '@edtr-io/store'
+import { Action, getScope, ScopedState, State } from '../store'
 import * as React from 'react'
 import {
   Provider as ReduxProvider,

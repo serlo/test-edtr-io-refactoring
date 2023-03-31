@@ -1,5 +1,5 @@
-import { EditorInput } from '@edtr-io/editor-ui'
-import { Icon, faLink, styled } from '@edtr-io/ui'
+import { EditorInput } from '../editor-ui'
+import { Icon, faLink, styled } from '../ui'
 import * as React from 'react'
 
 import { AnchorProps } from '.'

@@ -1,4 +1,4 @@
-import { styled } from '@edtr-io/ui'
+import { styled } from '../ui'
 import * as React from 'react'
 
 const OverlayTriangle = styled.div<{ positionAbove?: boolean }>(

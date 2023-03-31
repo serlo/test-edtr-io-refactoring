@@ -1,4 +1,4 @@
-import { createSelector, getDocument, isEmpty } from '@edtr-io/store'
+import { createSelector, getDocument, isEmpty } from '../store'
 
 /** @public */
 export const isEmptyRows = createSelector((state, id: string) => {

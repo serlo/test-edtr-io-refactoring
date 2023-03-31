@@ -1,6 +1,6 @@
-import { createDefaultDocumentEditor } from '@edtr-io/default-document-editor'
-import { createDefaultPluginToolbar } from '@edtr-io/default-plugin-toolbar'
-import { EditorPlugin } from '@edtr-io/internal__plugin'
+import { createDefaultDocumentEditor } from '../default-document-editor'
+import { createDefaultPluginToolbar } from '../default-plugin-toolbar'
+import { EditorPlugin } from '../internal__plugin'
 import {
   initRoot,
   undo,
@@ -13,8 +13,8 @@ import {
   ChangeListener,
   StoreEnhancerFactory,
   getScope,
-} from '@edtr-io/store'
-import { CustomTheme, RootThemeProvider } from '@edtr-io/ui'
+} from '../store'
+import { CustomTheme, RootThemeProvider } from '../ui'
 import * as React from 'react'
 import { DndProvider } from 'react-dnd'
 import { HTML5Backend } from 'react-dnd-html5-backend'

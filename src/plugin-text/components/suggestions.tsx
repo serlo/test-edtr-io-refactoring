@@ -1,4 +1,4 @@
-import { styled } from '@edtr-io/ui'
+import { styled } from '../../ui'
 import React from 'react'
 
 import type { TextEditorPluginConfig } from '../types'

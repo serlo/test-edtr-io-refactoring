@@ -1,4 +1,4 @@
-import { EditorPlugin, serializedScalar } from '@edtr-io/plugin'
+import { EditorPlugin, serializedScalar } from '../plugin'
 import { Node } from 'slate'
 
 import { TextEditor } from './components/text-editor'

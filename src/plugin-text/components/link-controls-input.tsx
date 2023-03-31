@@ -1,4 +1,4 @@
-import { DeepPartial, styled } from '@edtr-io/ui'
+import { DeepPartial, styled } from '../../ui'
 import * as React from 'react'
 
 import type { TextEditorPluginConfig } from '../types'

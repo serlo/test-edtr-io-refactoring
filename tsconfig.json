@@ -9,11 +9,7 @@
     "outDir": "./",
     "rootDir": "./src",
     "strict": true,
-    "jsx": "preserve",
-    "baseUrl": ".",
-    "paths": {
-      "@edtr-io/*": ["./src/*"]
-    }
+    "jsx": "preserve"
   },
   "include": ["src"],
   "exclude": ["node_modules", "**/__tests__/*"]

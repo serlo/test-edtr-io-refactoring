@@ -1,5 +1,5 @@
-import { getDocument, getPlugin } from '@edtr-io/store'
-import { useTheme } from '@edtr-io/ui'
+import { getDocument, getPlugin } from '../../store'
+import { useTheme } from '../../ui'
 import * as R from 'ramda'
 import * as React from 'react'
 

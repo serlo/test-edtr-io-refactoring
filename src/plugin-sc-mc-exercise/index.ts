@@ -10,8 +10,8 @@ import {
   ListStateType,
   object,
   ObjectStateType,
-} from '@edtr-io/plugin'
-import { DeepPartial } from '@edtr-io/ui'
+} from '../plugin'
+import { DeepPartial } from '../ui'
 
 import { ScMcExerciseEditor } from './editor'
 

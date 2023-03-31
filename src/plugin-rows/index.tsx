@@ -6,8 +6,8 @@ import {
   EditorPluginProps,
   list,
   ListStateType,
-} from '@edtr-io/plugin'
-import { DeepPartial } from '@edtr-io/ui'
+} from '../plugin'
+import { DeepPartial } from '../ui'
 import * as R from 'ramda'
 import * as React from 'react'
 

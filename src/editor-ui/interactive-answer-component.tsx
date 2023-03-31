@@ -1,4 +1,4 @@
-import { styled, Icon, faTimes, faPlus } from '@edtr-io/ui'
+import { styled, Icon, faTimes, faPlus } from '../ui'
 import * as React from 'react'
 
 const AddButtonComponent = styled.button({

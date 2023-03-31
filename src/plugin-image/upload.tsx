@@ -1,5 +1,5 @@
-import { OverlayButton } from '@edtr-io/core'
-import { EditorButton } from '@edtr-io/editor-ui'
+import { OverlayButton } from '../core'
+import { EditorButton } from '../editor-ui'
 import * as React from 'react'
 
 import { ImagePluginConfig } from '.'

@@ -1,6 +1,6 @@
-import { HotKeys } from '@edtr-io/core'
-import { HoverOverlay } from '@edtr-io/editor-ui'
-import { EditorPluginProps } from '@edtr-io/plugin'
+import { HotKeys } from '../../core'
+import { HoverOverlay } from '../../editor-ui'
+import { EditorPluginProps } from '../../plugin'
 import { onKeyDown as slateListsOnKeyDown } from '@prezly/slate-lists'
 import React, {
   createElement,

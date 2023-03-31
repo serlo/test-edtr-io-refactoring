@@ -1,4 +1,4 @@
-import { styled } from '@edtr-io/ui'
+import { styled } from '../../ui'
 
 export const HoveringToolbarColorIcon = styled.div<{ color: string }>(
   ({ color }) => ({

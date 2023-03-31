@@ -1,5 +1,5 @@
-import { StateTypeReturnType } from '@edtr-io/plugin'
-import { Feedback, styled, SubmitButton } from '@edtr-io/renderer-ui'
+import { StateTypeReturnType } from '../plugin'
+import { Feedback, styled, SubmitButton } from '../renderer-ui'
 import * as R from 'ramda'
 import * as React from 'react'
 

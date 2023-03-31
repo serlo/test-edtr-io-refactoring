@@ -1,4 +1,4 @@
-import { merge, useTheme } from '@edtr-io/ui'
+import { merge, useTheme } from '../../ui'
 import * as React from 'react'
 
 import { TextEditorControl } from '../types'

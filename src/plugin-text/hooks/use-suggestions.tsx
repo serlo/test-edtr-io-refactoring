@@ -1,6 +1,6 @@
-import { useScopedStore } from '@edtr-io/core'
-import { RegistryContext, Registry } from '@edtr-io/plugin-rows'
-import { replace } from '@edtr-io/store'
+import { useScopedStore } from '../../core'
+import { RegistryContext, Registry } from '../../plugin-rows'
+import { replace } from '../../store'
 import React, { useContext, useState, useEffect, useRef } from 'react'
 
 interface useSuggestionsArgs {

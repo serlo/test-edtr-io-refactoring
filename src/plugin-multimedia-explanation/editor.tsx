@@ -1,11 +1,11 @@
-import { PluginToolbarButton, useScopedSelector } from '@edtr-io/core'
+import { PluginToolbarButton, useScopedSelector } from '../core'
 import {
   hasFocusedDescendant,
   isEmpty,
   isFocused,
   serializeDocument,
-} from '@edtr-io/store'
-import { styled, faRandom, Icon, faTrashAlt } from '@edtr-io/ui'
+} from '../store'
+import { styled, faRandom, Icon, faTrashAlt } from '../ui'
 import * as React from 'react'
 
 import { MultimediaExplanationProps } from '.'

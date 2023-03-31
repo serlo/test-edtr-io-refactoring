@@ -1,4 +1,4 @@
-import { StateExecutor, StateUpdater } from '@edtr-io/internal__plugin-state'
+import { StateExecutor, StateUpdater } from '../../internal__plugin-state'
 
 import { createActionCreator } from '../helpers'
 import {

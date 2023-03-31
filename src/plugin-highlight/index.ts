@@ -7,8 +7,8 @@ import {
   ObjectStateType,
   string,
   StringStateType,
-} from '@edtr-io/plugin'
-import { DeepPartial } from '@edtr-io/ui'
+} from '../plugin'
+import { DeepPartial } from '../ui'
 import * as React from 'react'
 
 import { HighlightEditor } from './editor'

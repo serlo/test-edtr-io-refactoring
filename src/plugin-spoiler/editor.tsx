@@ -1,6 +1,6 @@
-import { EditorInput } from '@edtr-io/editor-ui'
-import { ExpandableBox } from '@edtr-io/renderer-ui'
-import { ThemeProvider } from '@edtr-io/ui'
+import { EditorInput } from '../editor-ui'
+import { ExpandableBox } from '../renderer-ui'
+import { ThemeProvider } from '../ui'
 import * as React from 'react'
 
 import { SpoilerProps } from '.'

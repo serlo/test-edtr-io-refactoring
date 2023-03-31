@@ -1,4 +1,4 @@
-import { PluginToolbarOverlayButtonProps } from '@edtr-io/plugin-toolbar'
+import { PluginToolbarOverlayButtonProps } from '../plugin-toolbar'
 import * as React from 'react'
 import Modal from 'react-modal'
 

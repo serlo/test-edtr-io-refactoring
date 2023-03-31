@@ -1,4 +1,4 @@
-import { EditorBottomToolbar, styled } from '@edtr-io/editor-ui'
+import { EditorBottomToolbar, styled } from '../../editor-ui'
 
 export const TimeoutBottomToolbarWrapper = styled(EditorBottomToolbar)<{
   visible: boolean

@@ -1,4 +1,4 @@
-import { StateUpdater } from '@edtr-io/internal__plugin-state'
+import { StateUpdater } from '../../internal__plugin-state'
 import {
   change,
   focus,
@@ -15,8 +15,8 @@ import {
   removeChild,
   undo,
   ChangeAction,
-} from '@edtr-io/store'
-import { styled, useTheme } from '@edtr-io/ui'
+} from '../../store'
+import { styled, useTheme } from '../../ui'
 import * as R from 'ramda'
 import * as React from 'react'
 import { createPortal } from 'react-dom'

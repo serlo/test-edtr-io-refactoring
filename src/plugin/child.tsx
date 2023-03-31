@@ -1,4 +1,4 @@
-import { SubDocument } from '@edtr-io/core'
+import { SubDocument } from '../core'
 import * as R from 'ramda'
 import * as React from 'react'
 import { generate } from 'shortid'

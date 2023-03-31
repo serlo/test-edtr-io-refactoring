@@ -1,4 +1,4 @@
-import { DocumentEditorProps } from '@edtr-io/document-editor'
+import { DocumentEditorProps } from '../document-editor'
 import {
   DeepPartial,
   edtrClose,
@@ -7,7 +7,7 @@ import {
   Icon,
   merge,
   styled,
-} from '@edtr-io/ui'
+} from '../ui'
 import * as React from 'react'
 
 interface ToolbarProps {

@@ -1,4 +1,4 @@
-import { PluginToolbar } from '@edtr-io/plugin-toolbar'
+import { PluginToolbar } from '../plugin-toolbar'
 
 import { DefaultPluginToolbarConfig } from './config'
 import { createOverlayButton } from './overlay-button'

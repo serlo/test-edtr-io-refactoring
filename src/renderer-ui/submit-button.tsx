@@ -5,7 +5,7 @@ import {
   faCheckCircle,
   useRendererUiTheme,
   RendererUiTheme,
-} from '@edtr-io/ui'
+} from '../ui'
 import * as React from 'react'
 
 /** @internal */

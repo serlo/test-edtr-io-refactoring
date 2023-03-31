@@ -1,5 +1,5 @@
-import { OverlayInput } from '@edtr-io/core'
-import { EditorInput, EditorInlineSettings } from '@edtr-io/editor-ui'
+import { OverlayInput } from '../core'
+import { EditorInput, EditorInlineSettings } from '../editor-ui'
 import * as React from 'react'
 
 import { VideoProps } from '.'

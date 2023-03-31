@@ -1,5 +1,5 @@
-import { ScopeContext, useScope } from '@edtr-io/core'
-import { styled } from '@edtr-io/ui'
+import { ScopeContext, useScope } from '../core'
+import { styled } from '../ui'
 import * as React from 'react'
 
 const NoClickArea = styled.div<{ active: boolean }>((props) => {

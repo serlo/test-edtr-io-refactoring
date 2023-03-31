@@ -1,8 +1,8 @@
-import { invariant } from '@edtr-io/internal__dev-expression'
+import { invariant } from '../../internal__dev-expression'
 import {
   StateUpdater,
   StoreDeserializeHelpers,
-} from '@edtr-io/internal__plugin-state'
+} from '../../internal__plugin-state'
 import { channel, Channel } from 'redux-saga'
 import { all, call, put, select, take, takeEvery } from 'redux-saga/effects'
 import generate from 'shortid'

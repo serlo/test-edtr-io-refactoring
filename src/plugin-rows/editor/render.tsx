@@ -1,15 +1,11 @@
-import {
-  OverlayButton,
-  PluginToolbarButton,
-  useScopedStore,
-} from '@edtr-io/core'
-import { StateTypeReturnType } from '@edtr-io/plugin'
+import { OverlayButton, PluginToolbarButton, useScopedStore } from '../../core'
+import { StateTypeReturnType } from '../../plugin'
 import {
   DocumentState,
   getPlugins,
   SelectorReturnType,
   serializeDocument,
-} from '@edtr-io/store'
+} from '../../store'
 import {
   edtrDragHandle,
   EdtrIcon,
@@ -17,7 +13,7 @@ import {
   faTrashAlt,
   Icon,
   styled,
-} from '@edtr-io/ui'
+} from '../../ui'
 import * as R from 'ramda'
 import * as React from 'react'
 import { DropTargetMonitor, useDrag, useDrop } from 'react-dnd'

@@ -1,10 +1,4 @@
-import {
-  styled,
-  faSortDown,
-  faSortUp,
-  Icon,
-  useRendererUiTheme,
-} from '@edtr-io/ui'
+import { styled, faSortDown, faSortUp, Icon, useRendererUiTheme } from '../ui'
 import * as React from 'react'
 
 function useExpandableBoxTheme() {

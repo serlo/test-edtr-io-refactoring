@@ -1,7 +1,7 @@
-import { useScopedSelector } from '@edtr-io/core'
-import { StateTypeReturnType } from '@edtr-io/plugin'
-import { getPlugins, isFocused } from '@edtr-io/store'
-import { styled } from '@edtr-io/ui'
+import { useScopedSelector } from '../../core'
+import { StateTypeReturnType } from '../../plugin'
+import { getPlugins, isFocused } from '../../store'
+import { styled } from '../../ui'
 import * as React from 'react'
 
 import { RowsPluginConfig, RowsProps, RowsPluginState } from '..'

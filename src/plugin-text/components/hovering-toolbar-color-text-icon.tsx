@@ -1,4 +1,4 @@
-import { edtrColorText, EdtrIcon, styled } from '@edtr-io/ui'
+import { edtrColorText, EdtrIcon, styled } from '../../ui'
 import React from 'react'
 
 import { ColorsTheme } from '../types'

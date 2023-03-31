@@ -1,5 +1,5 @@
-import { SerializedScalarStateType } from '@edtr-io/plugin'
-import { DeepPartial } from '@edtr-io/ui'
+import { SerializedScalarStateType } from '../../plugin'
+import { DeepPartial } from '../../ui'
 import { Descendant, Range } from 'slate'
 
 import { Heading } from './text-editor'

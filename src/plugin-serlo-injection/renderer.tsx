@@ -1,4 +1,4 @@
-import { styled } from '@edtr-io/ui'
+import { styled } from '../ui'
 import IframeResizer from 'iframe-resizer-react'
 import * as React from 'react'
 

@@ -1,7 +1,7 @@
-import { useScopedStore } from '@edtr-io/core'
-import { styled } from '@edtr-io/editor-ui'
-import { Feedback, SubmitButton } from '@edtr-io/renderer-ui'
-import { isEmpty } from '@edtr-io/store'
+import { useScopedStore } from '../core'
+import { styled } from '../editor-ui'
+import { Feedback, SubmitButton } from '../renderer-ui'
+import { isEmpty } from '../store'
 import A from 'algebra.js'
 import * as React from 'react'
 

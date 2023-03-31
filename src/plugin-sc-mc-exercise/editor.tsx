@@ -1,11 +1,11 @@
-import { useScopedSelector, useScopedStore } from '@edtr-io/core'
+import { useScopedSelector, useScopedStore } from '../core'
 import {
   AddButton,
   InteractiveAnswer,
   PreviewOverlay,
   styled,
-} from '@edtr-io/editor-ui'
-import { getFocused, isEmpty as isEmptySelector } from '@edtr-io/store'
+} from '../editor-ui'
+import { getFocused, isEmpty as isEmptySelector } from '../store'
 import * as R from 'ramda'
 import * as React from 'react'
 

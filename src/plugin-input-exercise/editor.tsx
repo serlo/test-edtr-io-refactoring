@@ -1,11 +1,11 @@
-import { OverlayInput, useScopedSelector } from '@edtr-io/core'
+import { OverlayInput, useScopedSelector } from '../core'
 import {
   AddButton,
   InteractiveAnswer,
   PreviewOverlay,
   styled,
-} from '@edtr-io/editor-ui'
-import { getFocused } from '@edtr-io/store'
+} from '../editor-ui'
+import { getFocused } from '../store'
 import * as R from 'ramda'
 import * as React from 'react'
 

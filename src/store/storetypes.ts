@@ -1,4 +1,4 @@
-import { EditorPlugin } from '@edtr-io/internal__plugin'
+import { EditorPlugin } from '../internal__plugin'
 import { Store as ReduxStore } from 'redux'
 
 import { Action, InternalAction, ReversibleAction } from './actions'

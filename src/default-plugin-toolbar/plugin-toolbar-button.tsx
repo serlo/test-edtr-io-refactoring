@@ -1,4 +1,4 @@
-import { PluginToolbarButtonProps } from '@edtr-io/plugin-toolbar'
+import { PluginToolbarButtonProps } from '../plugin-toolbar'
 import * as React from 'react'
 
 import { Button } from './button'

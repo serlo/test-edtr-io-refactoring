@@ -18,8 +18,8 @@ import {
   UploadStateType,
   UploadValidator,
   child,
-} from '@edtr-io/plugin'
-import { DeepPartial } from '@edtr-io/ui'
+} from '../plugin'
+import { DeepPartial } from '../ui'
 
 import { ImageEditor } from './editor'
 

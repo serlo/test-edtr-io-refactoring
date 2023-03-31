@@ -12,8 +12,8 @@ import {
   ObjectStateType,
   string,
   StringStateType,
-} from '@edtr-io/plugin'
-import { DeepPartial } from '@edtr-io/ui'
+} from '../plugin'
+import { DeepPartial } from '../ui'
 
 import { InputExerciseEditor } from './editor'
 import { InputExerciseType } from './input-exercise-type'

@@ -1,4 +1,4 @@
-import { useTheme } from '@edtr-io/ui'
+import { useTheme } from '../ui'
 import * as R from 'ramda'
 
 import { RowsConfig, RowsPluginConfig } from '.'

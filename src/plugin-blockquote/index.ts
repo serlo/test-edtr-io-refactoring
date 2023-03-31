@@ -4,7 +4,7 @@ import {
   ChildStateTypeConfig,
   EditorPlugin,
   EditorPluginProps,
-} from '@edtr-io/plugin'
+} from '../plugin'
 
 import { BlockquoteRenderer } from './renderer'
 

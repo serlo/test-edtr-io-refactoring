@@ -1,4 +1,4 @@
-import * as InternalPluginState from '@edtr-io/internal__plugin-state'
+import * as InternalPluginState from '../internal__plugin-state'
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /** @public */

@@ -3,7 +3,7 @@ import {
   EditorPluginProps,
   string,
   StringStateType,
-} from '@edtr-io/plugin'
+} from '../plugin'
 
 import { SerloInjectionEditor } from './editor'
 

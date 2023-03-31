@@ -10,7 +10,7 @@ import {
   edtrText,
   faCode,
   Icon,
-} from '@edtr-io/ui'
+} from '../../ui'
 import isHotkey from 'is-hotkey'
 import React, { useCallback, useMemo } from 'react'
 import { Editor as SlateEditor } from 'slate'

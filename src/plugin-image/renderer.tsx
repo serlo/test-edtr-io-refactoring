@@ -1,5 +1,5 @@
-import { isTempFile } from '@edtr-io/plugin'
-import { styled } from '@edtr-io/ui'
+import { isTempFile } from '../plugin'
+import { styled } from '../ui'
 import * as React from 'react'
 
 import { ImageProps } from '.'

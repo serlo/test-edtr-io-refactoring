@@ -1,4 +1,4 @@
-export { styled } from '@edtr-io/ui'
+export { styled } from '../ui'
 
 export * from './expandable-box'
 export * from './feedback'

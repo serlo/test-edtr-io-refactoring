@@ -1,4 +1,4 @@
-import { styled, useEditorUiTheme } from '@edtr-io/ui'
+import { styled, useEditorUiTheme } from '../ui'
 import { StyledComponent } from 'styled-components'
 
 /** @public */
