@@ -2,7 +2,7 @@
 
 Minimal setup for edtr-io that enabled the frontend to consume the code and run it.
 
-Typecheck the repo with `npm run check`.
+Install dependencies with `npm install`. Typecheck the repo with `npm run check`.
 
 After pushing to `main`, an action will build the repo and commit it to `dist`.
 
