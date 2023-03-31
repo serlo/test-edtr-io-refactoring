@@ -2,8 +2,8 @@ import {
   StateType,
   StateTypeReturnType,
   StateTypeSerializedType,
-} from '../internal__plugin-state'
-import { Theme } from '../ui'
+} from '@/internal__plugin-state'
+import { Theme } from '@/ui'
 import * as React from 'react'
 
 /**

@@ -1,4 +1,4 @@
-import { PluginToolbar } from '../internal__plugin-toolbar';
+import { PluginToolbar } from '@/internal__plugin-toolbar';
 import * as React from 'react';
 /**
  * Allows to override the default rendering behavior of the document editor

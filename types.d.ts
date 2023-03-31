@@ -4,3 +4,4 @@
 /// <reference path="./internal__dev-expression/index.d.ts" />
 /// <reference path="./ui/index.d.ts" />
 /// <reference path="./internal__plugin/index.d.ts" />
+/// <reference path="./store/index.d.ts" />

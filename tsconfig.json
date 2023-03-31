@@ -3,12 +3,17 @@
     "target": "esnext",
     "module": "esnext",
     "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
     "declaration": true,
     "outDir": "./",
     "rootDir": "./src",
     "strict": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
   "include": ["src"],
   "exclude": ["node_modules", "**/__tests__/*"]
