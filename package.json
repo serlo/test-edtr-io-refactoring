@@ -5,7 +5,8 @@
   "type": "module",
   "types": "./types.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "check": "tsc --noEmit"
   },
   "repository": {
     "type": "git",
